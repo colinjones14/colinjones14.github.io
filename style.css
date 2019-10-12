@@ -1,14 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Griffy&display=swap');
 body {
-  font-family: "Raleway";
-  font-size: 100px;
+  font-family: "Griffy","Raleway";
+  font-size: 140px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
+
 body {
   background-color: #101820FF;
-  color: #F2AA4CFF;
+  color: #ff8000;
+  text-align: center;
+
 }
+
+html::after {
+  content: "";
+  background: url(ghosts.png);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
