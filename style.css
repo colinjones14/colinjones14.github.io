@@ -9,12 +9,43 @@ body {
   transform: translate(-50%, -50%);
 }
 
-
 body {
   background-color: #101820FF;
   color: #ff8000;
   text-align: center;
 
+}
+
+.button {
+  font-family: "Griffy","Raleway";
+  background: #101820FF;
+  color: #ff8000;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 7%;
+  border: 2px solid #ff8000;
+}
+
+.button:hover {
+  background: #8c8a82;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 60px;
+  }
+  .button {
+    height: 30px;
+    width: 140px;
+    font-size: 15px;
+    margin-top: 25%;
+  }
 }
 
 html::after {
